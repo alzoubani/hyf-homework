@@ -1,0 +1,152 @@
+html, body {
+  margin: 1%;
+  background-color: white;
+}
+.main
+{
+  background-color: whitesmoke;
+  color:  black;
+  font-size: 2em;
+  font-style: calibri;
+  padding-left: 5%;
+  height: 250px;
+}
+  
+
+
+.headinfo
+{
+  color:  black;
+  font-size: 1em;
+  font-style: calibri;
+  padding-left: 30px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  background-color:  white;
+
+}
+.nav{
+  font-size: 25px;
+  color: white;
+  background-color: white;
+  flex-grow: 1;
+  
+}
+.nav > ul
+ {
+  display: flex;
+  justify-content: flex-front;
+  list-style-type: none;
+}
+li {
+  margin-right: 40px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+
+.container2
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  background-color: white;
+  font-size: 25px;
+  color: black;
+  justify-content: space-between;
+  margin-left: 3em;
+  margin-right: 3em;
+  flex-wrap: nowrap,
+}
+.head2
+{
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+}
+.gallery
+{
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  margin-left: 3em;
+}
+
+.container3
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.logotype
+  {
+    background-color: white;
+    font-size: 2em;
+    margin-left: 15em;
+  }
+ .containerlogo
+  {
+    width: 400px;
+    margin: 0em auto 0 53em;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+  .containerlogo div
+  {
+    padding: 10px;
+    width: 80px;
+    max-height: 150px;
+   }
+  .container4
+  {
+    background-color: lightsteelblue;
+    font-size: 18px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+  }
+  .container4 div
+   {
+    font-style: calibri;
+    padding: 3em; 
+    margin: 3em;
+    }
+    @media (min-width: 400px) {
+      p {
+        font-size: 10px;
+        color: pink;
+       
+      }
+    }
+    @media (min-width: 768px) {
+      p {
+        font-size: 15px;
+        color: blue;
+       
+      }
+    }
+
+    @media (min-width: 992px) {
+      p {
+        font-size: 20px;
+        color: green;
+       
+      }
+    }
+    @media (min-width: 1200px) {
+      p {
+        font-size: 18px;
+        color: black;
+       
+      }
+    }
