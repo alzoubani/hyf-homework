@@ -96,7 +96,6 @@ img {
   {
     width: 400px;
     margin: 0em auto 0 53em;
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
@@ -115,38 +114,47 @@ img {
     padding: 10px;
     display: flex;
   }
+
   .container4 div
    {
     font-style: calibri;
     padding: 3em; 
     margin: 3em;
     }
-    @media (min-width: 400px) {
-      p {
-        font-size: 10px;
-        color: pink;
-       
-      }
-    }
-    @media (min-width: 768px) {
-      p {
-        font-size: 15px;
-        color: blue;
-       
-      }
-    }
 
-    @media (min-width: 992px) {
-      p {
-        font-size: 20px;
-        color: green;
-       
+    @media (max-width: 600px) {
+      p  {
+        font-size: 10px;
       }
-    }
-    @media (min-width: 1200px) {
-      p {
-        font-size: 18px;
-        color: black;
-       
+      .main {
+        font-size: 10px;
+        height: 25px;
       }
+      .nav {
+        font-size: 10px;
+      }
+      .text {
+        font-size: 10px;
+      }
+      .head2 {
+        font-size: 10px;
+      } 
+      .containerlogo div {
+        width: 35px;
+        max-height: 25px;
+        display: flex;
+        margin-left: 10px;      
+         padding left: 10;
+      }
+
+      .container4 {
+        width: 8px;
+        max-height: 15px;
+        font-size: 10px;
+        padding-left: 2px;
+        margin-left: 1px;
+      }
+      
+
     }
+ 
