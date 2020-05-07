@@ -1,0 +1,195 @@
+
+.body{
+    background-color: rgb(185, 201, 209);
+    margin-left: 2%;
+  }
+  .mainheader
+  {
+    background-color:lightsteelblue;
+    height:40px;
+    overflow:hidden;
+    padding:20px;
+  }
+  .mainheader h1
+  {
+    float: left;
+    font-family: calibri;
+    color:red;
+  }
+  
+  /* -------------logo  ------------*/
+  
+  .logo
+  {
+    color:#3498db;
+  }
+  
+  /* ------------- navigation menu ------------*/
+  
+  
+  .mainheader nav
+  {
+    float: right;
+  }
+  .mainheader nav ul
+  {
+    list-style-type:none;
+  }
+  .mainheader nav ul li
+  {
+    float:left;
+    margin-right:30px;
+    color:white;
+    text-transform:uppercase;
+  }
+  a:link
+  {
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:14pt;
+    color:white;
+    
+  }
+  
+  
+  /* ------------- navigation menu ------------*/
+  
+  
+  .mainheader nav
+  {
+    float: right;
+  }
+  .mainheader nav ul
+  {
+    list-style-type:none;
+  }
+  .mainheader nav ul li
+  {
+    float:left;
+    margin-right:30px;
+    color:white;
+    text-transform:uppercase;
+  }
+  a:link
+  {
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:14pt;
+    color:white;
+    
+  }
+  a:hover
+  {
+    text-decoration:underline;
+    color:#3498db;
+    transition:1s;
+  }
+  
+  .text2
+  {
+      font-size: 40px;
+  }
+  
+  .header{
+    padding-left: 2%;
+  }
+  progress
+  {
+      padding: 20px;
+      margin: 25px;
+      width: 90%;
+  }
+  .form
+  {
+      padding: 10px;
+      margin: 20px;
+  }
+  .name
+  {
+      padding: 20px;
+      margin: 10px;
+  }
+  .country
+  {
+      padding: 20px;
+      margin: 10px;
+  }
+  .address
+  {
+      padding: 20px;
+      margin: 10px;
+  }
+  .description
+  {
+      padding: 10px;
+      margin: 5px;
+  
+  }
+  .next{
+  padding-left: 20px;
+  margin-left: 20%;
+  }
+  button {
+    height: 30px;
+    width: 140px;
+    color: red;
+    background-color: lightsteelblue;
+    font-size: 17px;
+  }
+  
+  .page{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    text-align: center;}
+  
+  .email{
+    padding: 20px;
+    margin: 10px;
+  }
+  .password{
+    padding: 20px;
+    margin: 10px;
+  }
+  .repassword{
+    padding: 20px;
+    margin: 10px;
+  }
+  .Sign{
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .items{
+    padding: 20px;
+    margin: 10px;
+  }
+  .container-images{
+    padding: 20px;
+    margin: 10px;
+  }
+  .pic1{
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .pay{
+    padding: 20px;
+    margin: 10px;
+  }
+  .cards-type{
+    padding: 20px;
+    margin: 10px;
+  }
+  .card{
+    padding: 20px;
+    margin: 10px;
+  }
+  .month-year{
+    padding: 20px;
+    margin: 10px;
+  }
+  .cvv{
+    padding: 20px;
+    margin: 10px;
+  }
